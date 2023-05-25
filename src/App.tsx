@@ -1,8 +1,11 @@
+import Counter from "./features/counter/Counter"
+
 function App() {
 
   return (
     <>
-      <h1>Hola</h1>
+      <section className="w-screen h-screen bg-gray-300 flex items-center justify-center"><div>
+        <Counter /></div></section>
     </>
   )
 }
